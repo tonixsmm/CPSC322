@@ -1,0 +1,13 @@
+Part 2:
+Grade: 2/2
+Comments: Home price could influence loan risk either way, depending on whether
+the home is paid off or not. It looks like you have this information in the 
+data, so should be interesting to see if it is used, or if you need to further
+add a column that captures whether the worth of the home is a positive or negative
+factor. Not sure how useful the heatmap visualization is generally ... Overall, 
+this seems like good data to use for classification.
+
+Part 3:
+Grade: 2/2
+Comments: I think we already talked about this and performance issues, etc. 
+
