@@ -1,0 +1,28 @@
+digraph {
+	graph [rankdir=TB]
+	4725851856 [label="Attribute: Root" fillcolor=white shape=rectangle style=filled]
+	"\"4725851856_Feature_A\"" [label="Value: Feature_A" fillcolor=white shape=oval style=filled]
+	4725851856 -> "\"4725851856_Feature_A\""
+	"\"4725851856_Feature_A\"" -> 4725851344
+	4725851344 [label="Attribute: A" fillcolor=white shape=rectangle style=filled]
+	"\"4725851344_1\"" [label="Value: 1" fillcolor=white shape=oval style=filled]
+	4725851344 -> "\"4725851344_1\""
+	"\"4725851344_1\"" -> 4725850448
+	4725850448 [label="Yes (10, 20, 50.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725851344_2\"" [label="Value: 2" fillcolor=white shape=oval style=filled]
+	4725851344 -> "\"4725851344_2\""
+	"\"4725851344_2\"" -> 4725850512
+	4725850512 [label="No (30, 40, 75.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725851856_Feature_B\"" [label="Value: Feature_B" fillcolor=white shape=oval style=filled]
+	4725851856 -> "\"4725851856_Feature_B\""
+	"\"4725851856_Feature_B\"" -> 4725851664
+	4725851664 [label="Attribute: B" fillcolor=white shape=rectangle style=filled]
+	"\"4725851664_True\"" [label="Value: True" fillcolor=white shape=oval style=filled]
+	4725851664 -> "\"4725851664_True\""
+	"\"4725851664_True\"" -> 4725851472
+	4725851472 [label="Yes (5, 10, 50.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725851664_False\"" [label="Value: False" fillcolor=white shape=oval style=filled]
+	4725851664 -> "\"4725851664_False\""
+	"\"4725851664_False\"" -> 4725850704
+	4725850704 [label="No (15, 20, 75.0%)" fillcolor=white shape=oval style=filled]
+}

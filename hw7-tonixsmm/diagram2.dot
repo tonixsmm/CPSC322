@@ -1,0 +1,52 @@
+digraph {
+	graph [rankdir=TB]
+	4725924560 [label="Attribute: Root" fillcolor=white shape=rectangle style=filled]
+	"\"4725924560_Feature_A\"" [label="Value: Feature_A" fillcolor=white shape=oval style=filled]
+	4725924560 -> "\"4725924560_Feature_A\""
+	"\"4725924560_Feature_A\"" -> 4725923600
+	4725923600 [label="Attribute: A" fillcolor=white shape=rectangle style=filled]
+	"\"4725923600_1\"" [label="Value: 1" fillcolor=white shape=oval style=filled]
+	4725923600 -> "\"4725923600_1\""
+	"\"4725923600_1\"" -> 4725922576
+	4725922576 [label="Yes (10, 20, 50.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725923600_2\"" [label="Value: 2" fillcolor=white shape=oval style=filled]
+	4725923600 -> "\"4725923600_2\""
+	"\"4725923600_2\"" -> 4725922640
+	4725922640 [label="No (30, 40, 75.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725924560_Feature_B\"" [label="Value: Feature_B" fillcolor=white shape=oval style=filled]
+	4725924560 -> "\"4725924560_Feature_B\""
+	"\"4725924560_Feature_B\"" -> 4725923984
+	4725923984 [label="Attribute: B" fillcolor=white shape=rectangle style=filled]
+	"\"4725923984_True\"" [label="Value: True" fillcolor=white shape=oval style=filled]
+	4725923984 -> "\"4725923984_True\""
+	"\"4725923984_True\"" -> 4725922832
+	4725922832 [label="Yes (5, 10, 50.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725923984_False\"" [label="Value: False" fillcolor=white shape=oval style=filled]
+	4725923984 -> "\"4725923984_False\""
+	"\"4725923984_False\"" -> 4725923664
+	4725923664 [label="No (15, 20, 75.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725924560_Feature_C\"" [label="Value: Feature_C" fillcolor=white shape=oval style=filled]
+	4725924560 -> "\"4725924560_Feature_C\""
+	"\"4725924560_Feature_C\"" -> 4725924368
+	4725924368 [label="Attribute: C" fillcolor=white shape=rectangle style=filled]
+	"\"4725924368_X\"" [label="Value: X" fillcolor=white shape=oval style=filled]
+	4725924368 -> "\"4725924368_X\""
+	"\"4725924368_X\"" -> 4725923792
+	4725923792 [label="Yes (7, 15, 46.67%)" fillcolor=white shape=oval style=filled]
+	"\"4725924368_Y\"" [label="Value: Y" fillcolor=white shape=oval style=filled]
+	4725924368 -> "\"4725924368_Y\""
+	"\"4725924368_Y\"" -> 4725924048
+	4725924048 [label="Yes (8, 15, 53.33%)" fillcolor=white shape=oval style=filled]
+	"\"4725924560_Feature_D\"" [label="Value: Feature_D" fillcolor=white shape=oval style=filled]
+	4725924560 -> "\"4725924560_Feature_D\""
+	"\"4725924560_Feature_D\"" -> 4725924752
+	4725924752 [label="Attribute: D" fillcolor=white shape=rectangle style=filled]
+	"\"4725924752_3.14\"" [label="Value: 3.14" fillcolor=white shape=oval style=filled]
+	4725924752 -> "\"4725924752_3.14\""
+	"\"4725924752_3.14\"" -> 4725924176
+	4725924176 [label="Yes (2, 5, 40.0%)" fillcolor=white shape=oval style=filled]
+	"\"4725924752_2.71\"" [label="Value: 2.71" fillcolor=white shape=oval style=filled]
+	4725924752 -> "\"4725924752_2.71\""
+	"\"4725924752_2.71\"" -> 4725924496
+	4725924496 [label="No (3, 5, 60.0%)" fillcolor=white shape=oval style=filled]
+}
